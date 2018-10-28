@@ -3,10 +3,10 @@
 
 ![Demo](readme_images/demo.gif)
 
-You can view a [demo][demo_url] of this app.
+Você pode ver uma [demo][demo_url] deste aplicativo.
 
 
-## Prerequisites
+## Pré-requisitos
 
 1. Sign up for an [IBM Cloud account](https://console.bluemix.net/registration/).
 1. Download the [IBM Cloud CLI](https://console.bluemix.net/docs/cli/index.html#overview).
