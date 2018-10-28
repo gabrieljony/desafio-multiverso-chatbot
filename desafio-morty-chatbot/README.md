@@ -1,5 +1,5 @@
 <h1 align="center" style="border-bottom: none;">Aplicativo do Desafio Morty ChatBot usando Watson Assistant(formerly Conversation)</h1>
-<h3 align="center">Este aplicativo Node.js demonstra o serviço do Watson Assistant com interface do anime Rick and Morty que envolve tarefas na qual simula uma entrevista.</h3>
+<h3 align="center">Este aplicativo Node.js demonstra o serviço do Watson Assistant com interface que envolve tarefas na qual simula uma entrevista.</h3>
 
 ![Demo](readme_images/demo.gif)
 
