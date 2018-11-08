@@ -28,7 +28,7 @@ Você pode ver uma [demo][demo_url] deste aplicativo.
 
 3. Clique no ícone do menu no canto superior direito do bloco de espaço de trabalho e, em seguida, selecione ** Ver detalhes **.
 
-4. Clique no ícone![Copiar](readme_images/copy_icon.png) para copiar o ID do espaço de trabalho para a área de transferência.
+4. Clique no ícone ![Copiar](readme_images/copy_icon.png) para copiar o ID do espaço de trabalho para a área de transferência.
 
     ![Etapas para obter credenciais](readme_images/assistant-simple.gif)
 
