@@ -143,6 +143,13 @@ Veja [CONTRIBUINDO](CONTRIBUTING.md).
 Encontre mais projetos de código aberto na
 [Página do IBM Github](http://ibm.github.io/).
 
+## Feedback 
+
+Nota: 8,0
+
+Observação:
+
+Personalizou o design no assistant-simple. Respondeu também com imagens no diálogo. A conversa ficou pouco fluida e sem engajamento, mas respondeu tudo.
 
 [demo_url]: https://desafio-morty-chatbot.mybluemix.net/ 
 [doc_intents]: (https://console.bluemix.net/docs/services/conversation/intents-entities.html#planning-your-entities)
