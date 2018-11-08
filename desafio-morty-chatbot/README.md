@@ -9,7 +9,7 @@ Você pode ver uma [demo][demo_url] deste aplicativo.
 ## Pré-requisitos
 
 1. Criar uma conta do IBM Cloud gratuitamente. [IBM Cloud account](https://console.bluemix.net/registration/).
-2. Fazer o Download do [IBM Cloud CLI](https://console.bluemix.net/docs/cli/index.html#overview). *Essa parte não fiz
+2. Fazer o Download do [IBM Cloud CLI](https://console.bluemix.net/docs/cli/index.html#overview).
 1. Crie uma instância do serviço Watson Assistant e obtenha suas credenciais:
     - Vá para a página do [Watson Assistant](https://console.bluemix.net/catalog/services/conversation) no IBM Cloud Catalog.
     - Faça login na sua conta do IBM Cloud.
@@ -18,33 +18,30 @@ Você pode ver uma [demo][demo_url] deste aplicativo.
     - Copie o valor de apikey ou copie os valores de nome de usuário e senha se a sua instância de serviço não fornecer um apikey.
     - Copie o valor do URL.
 
-## Configurando o aplicativo
+## Importando Workspace no Watson Assistant
 
-1. No console do IBM Cloud, abra a instância de serviço do Assistente do Watson
+1. No console do IBM Cloud, no menu Produtos/Catálogo clique no subitem AI, logo depois no serviço do Watson Assistant(Build and deploy virtual assistants)
 
-2. Clique no ícone ** Importar espaço de trabalho ** na ferramenta de serviço Assistente do Watson. Especifique o local do arquivo JSON da área de trabalho em sua cópia local do projeto de aplicativo:
+2. Na tela do IBM Watson Assistant, clique na guia Workspace, logo depois clique no ícone Import Workspace. Especifique o local do arquivo JSON da área de trabalho em sua cópia local do projeto de aplicativo:
 
-    <project_root>/training/bank_simple_workspace.json
+    <caminho_do_projeto>/training/bank_simple_workspace.json
 
-3. Selecione ** Tudo (Intents, Entities e Dialog) ** e clique em ** Import **. O espaço de trabalho do painel do carro é criado.
+3. Clique no ícone do menu no canto superior direito do bloco de espaço de trabalho e, em seguida, selecione ** Ver detalhes **.
 
-4. Clique no ícone do menu no canto superior direito do bloco de espaço de trabalho e, em seguida, selecione ** Ver detalhes **.
-
-5. Clique no ícone![Copiar](readme_images/copy_icon.png) para copiar o ID do espaço de trabalho para a área de transferência.
+4. Clique no ícone![Copiar](readme_images/copy_icon.png) para copiar o ID do espaço de trabalho para a área de transferência.
 
     ![Etapas para obter credenciais](readme_images/assistant-simple.gif)
 
-6. Na pasta do aplicativo, copie o arquivo chamado
-    .env.example 
-    e crie um arquivo chamado 
-    .env
+5. Na pasta do aplicativo, copie o arquivo chamado  .env.example 
+    
+    e crie um arquivo chamado apenas de  .env
 
-    No prompt de comenado só digitar o código abaixo:
+    Caso queira no prompt de comando só digitar o código abaixo:
 
     cp .env.example .env
     
 
-7. Abra o arquivo * .env * e adicione as credenciais de serviço obtidas na etapa anterior. O SDK do Watson localiza automaticamente as variáveis ambientais corretas para as credenciais `username`,` password` e `url` ou` apikey` e `url` encontradas no arquivo * .env *.
+6. Abra o arquivo * .env * e adicione as credenciais de serviço obtidas na etapa anterior. O SDK do Watson localiza automaticamente as variáveis ambientais corretas para as credenciais `username`,` password` e `url` ou` apikey` e `url` encontradas no arquivo * .env *.
 
     Exemplo * .env * arquivo que configura o `apikey` e o` url` para uma instância de serviço do Assistente do Watson hospedada na região leste dos EUA:
 
@@ -79,7 +76,7 @@ Você pode ver uma [demo][demo_url] deste aplicativo.
     ASSISTANT_IAM_URL=https://gateway-syd.watsonplatform.net/assistant/api
     ```
 
-8. Add the `WORKSPACE_ID` to the previous properties
+7. Add the `WORKSPACE_ID` to the previous properties
 
     ```
     WORKSPACE_ID=522be-7b41-ab44-dec3-g1eab2ha73c6
